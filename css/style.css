@@ -2,6 +2,9 @@
   margin: 0px;
   padding: 0px; }
 
+body {
+  overflow-x: hidden; }
+
 .overflow {
   overflow-y: hidden;
   position: fixed;
@@ -494,16 +497,19 @@
         margin: auto;
         line-height: 1.6; }
         .section-4 .ind .block .text .div {
-          color: #4D22D9; }
+          color: #4D22D9;
+          font-weight: bold; }
         .section-4 .ind .block .text .inf {
-          color: #000000; }
+          color: #000000;
+          font-weight: bold; }
       .section-4 .ind .block .text-1 {
         margin-top: 5px;
         font-size: 32px;
         font-family: "Proxima Nova Condensed";
         color: #313c32; }
         .section-4 .ind .block .text-1 span {
-          color: #4D22D9; }
+          color: #4D22D9;
+          font-weight: bold; }
       .section-4 .ind .block button {
         cursor: pointer;
         outline: none;
@@ -712,6 +718,608 @@
             color: #fff;
             font-weight: normal; }
 
+.section-7 {
+  background: url("../img/fon-6.png");
+  background-size: cover; }
+  .section-7 .block {
+    max-width: 1500px;
+    margin: auto;
+    padding: 30px;
+    text-align: center; }
+    .section-7 .block h2 {
+      font-size: 35px;
+      font-family: "Proxima Nova Condensed";
+      color: #000000;
+      font-weight: normal; }
+    .section-7 .block .marg {
+      margin-top: 30px; }
+      .section-7 .block .marg .flex-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-content: stretch;
+        align-items: flex-start; }
+      .section-7 .block .marg .flex-item:nth-child(1) {
+        /*background: #7A1313;
+				padding: 20px;*/
+        order: 0;
+        flex: 0 1 auto;
+        align-self: auto;
+        text-align: left; }
+        .section-7 .block .marg .flex-item:nth-child(1) .text-1, .section-7 .block .marg .flex-item:nth-child(1) .text-2 {
+          font-size: 30px;
+          font-family: "Proxima Nova Condensed";
+          color: #2b52ea;
+          font-weight: normal; }
+        .section-7 .block .marg .flex-item:nth-child(1) .list-1 {
+          margin: 0px;
+          padding: 0px;
+          padding-top: 15px; }
+          .section-7 .block .marg .flex-item:nth-child(1) .list-1 li {
+            list-style: none;
+            background: url("../img/marker.png") no-repeat;
+            font-size: 25px;
+            font-family: "Proxima Nova Condensed";
+            color: #000000;
+            font-weight: normal;
+            padding-left: 2em;
+            padding-bottom: 15px; }
+        .section-7 .block .marg .flex-item:nth-child(1) .list-2 {
+          margin: 0px;
+          padding: 0px;
+          padding-top: 15px; }
+          .section-7 .block .marg .flex-item:nth-child(1) .list-2 li {
+            list-style: none;
+            background: url("../img/marker.png") no-repeat;
+            font-size: 25px;
+            font-family: "Proxima Nova Condensed";
+            color: #000000;
+            font-weight: normal;
+            padding-left: 2em;
+            padding-bottom: 15px; }
+      .section-7 .block .marg .flex-item:nth-child(2) {
+        /*background: #7A1313;
+				padding: 20px;*/
+        order: 0;
+        flex: 0 1 auto;
+        align-self: auto; }
+        .section-7 .block .marg .flex-item:nth-child(2) img {
+          width: 80%; }
+    .section-7 .block .marg-1 {
+      margin-top: 30px; }
+      .section-7 .block .marg-1 .text {
+        font-size: 30px;
+        font-family: "Proxima Nova Condensed";
+        color: black;
+        line-height: 1.25;
+        max-width: 600px;
+        margin: auto; }
+        .section-7 .block .marg-1 .text span {
+          color: #e12626;
+          font-weight: bold; }
+      .section-7 .block .marg-1 button {
+        margin-top: 30px;
+        cursor: pointer;
+        outline: none;
+        border-radius: 10px;
+        border: 0px;
+        background-color: #022f72;
+        box-shadow: 0px 10px 7px 0px rgba(0, 0, 0, 0.35);
+        padding: 8px 70px;
+        font-size: 25px;
+        font-family: "Proxima Nova Condensed";
+        color: white; }
+
+.section-8 {
+  background: url("../img/fon-7.png");
+  background-size: cover; }
+  .section-8 .block {
+    max-width: 1500px;
+    margin: auto;
+    padding: 30px;
+    text-align: center; }
+    .section-8 .block h2 {
+      font-size: 35px;
+      font-family: "Proxima Nova Condensed";
+      color: #FFFFFF;
+      font-weight: normal; }
+    .section-8 .block .line {
+      width: 300px;
+      padding: 1px;
+      background: #FFFFFF;
+      display: inline-block; }
+    .section-8 .block .marg {
+      margin-top: 15px; }
+      .section-8 .block .marg .cash {
+        display: inline-block;
+        vertical-align: middle; }
+      .section-8 .block .marg .h2 {
+        margin-left: 10px;
+        display: inline-block;
+        vertical-align: middle;
+        color: #000000; }
+    .section-8 .block .disc {
+      margin-top: 10px; }
+    .section-8 .block .marg-1 {
+      margin-top: 30px; }
+      .section-8 .block .marg-1 .flex-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-content: stretch;
+        align-items: flex-start; }
+      .section-8 .block .marg-1 .flex-item:nth-child(1) {
+        cursor: pointer;
+        -webkit-transition: all 0.7s ease;
+        -moz-transition: all 0.7s ease;
+        -ms-transition: all 0.7s ease;
+        -o-transition: all 0.7s ease;
+        transition: all 0.7s ease;
+        order: 0;
+        flex: 0 1 auto;
+        align-self: auto;
+        max-width: 300px;
+        height: 200px; }
+        .section-8 .block .marg-1 .flex-item:nth-child(1):hover {
+          transform: scale(1.1); }
+        .section-8 .block .marg-1 .flex-item:nth-child(1) .block {
+          height: 280px;
+          padding: 20px;
+          border-radius: 10px;
+          background-color: white;
+          box-shadow: 0px 15px 7px 0px rgba(0, 0, 0, 0.35); }
+          .section-8 .block .marg-1 .flex-item:nth-child(1) .block .text-1 {
+            font-size: 30px;
+            font-family: "Proxima Nova Condensed";
+            color: #d30000;
+            font-weight: normal; }
+          .section-8 .block .marg-1 .flex-item:nth-child(1) .block .text-2 {
+            margin-top: 25px;
+            text-align: left;
+            font-size: 22px;
+            font-family: "Proxima Nova Condensed";
+            color: #000000;
+            font-weight: normal; }
+          .section-8 .block .marg-1 .flex-item:nth-child(1) .block .text-3 {
+            margin-top: 20px;
+            font-size: 50px;
+            font-family: "Proxima Nova Condensed";
+            color: #d30000;
+            font-weight: normal; }
+          .section-8 .block .marg-1 .flex-item:nth-child(1) .block .text-4 {
+            margin-top: 10px; }
+            .section-8 .block .marg-1 .flex-item:nth-child(1) .block .text-4 .first {
+              font-size: 30px;
+              font-family: "Proxima Nova Condensed";
+              color: #000000;
+              font-weight: normal;
+              text-decoration: line-through; }
+            .section-8 .block .marg-1 .flex-item:nth-child(1) .block .text-4 .second {
+              font-size: 30px;
+              font-family: "Proxima Nova Condensed";
+              color: #6dc82a;
+              font-weight: normal; }
+          .section-8 .block .marg-1 .flex-item:nth-child(1) .block .text-5 {
+            margin-top: 10px;
+            font-size: 25px;
+            font-family: "Proxima Nova Condensed";
+            color: #d30000;
+            font-weight: normal; }
+      .section-8 .block .marg-1 .flex-item:nth-child(2) {
+        cursor: pointer;
+        -webkit-transition: all 0.7s ease;
+        -moz-transition: all 0.7s ease;
+        -ms-transition: all 0.7s ease;
+        -o-transition: all 0.7s ease;
+        transition: all 0.7s ease;
+        order: 0;
+        flex: 0 1 auto;
+        align-self: auto;
+        max-width: 300px; }
+        .section-8 .block .marg-1 .flex-item:nth-child(2):hover {
+          transform: scale(1.1); }
+        .section-8 .block .marg-1 .flex-item:nth-child(2) .block {
+          height: 280px;
+          padding: 20px;
+          border-radius: 10px;
+          background-color: white;
+          box-shadow: 0px 15px 7px 0px rgba(0, 0, 0, 0.35); }
+          .section-8 .block .marg-1 .flex-item:nth-child(2) .block .text-1 {
+            font-size: 30px;
+            font-family: "Proxima Nova Condensed";
+            color: #d30000;
+            font-weight: normal; }
+          .section-8 .block .marg-1 .flex-item:nth-child(2) .block .text-2 {
+            text-align: left;
+            font-size: 22px;
+            font-family: "Proxima Nova Condensed";
+            color: #000000;
+            font-weight: normal; }
+          .section-8 .block .marg-1 .flex-item:nth-child(2) .block .text-3 {
+            margin-top: 20px;
+            font-size: 50px;
+            font-family: "Proxima Nova Condensed";
+            color: #d30000;
+            font-weight: normal; }
+          .section-8 .block .marg-1 .flex-item:nth-child(2) .block .text-4 {
+            margin-top: 10px; }
+            .section-8 .block .marg-1 .flex-item:nth-child(2) .block .text-4 .first {
+              font-size: 30px;
+              font-family: "Proxima Nova Condensed";
+              color: #000000;
+              font-weight: normal;
+              text-decoration: line-through; }
+            .section-8 .block .marg-1 .flex-item:nth-child(2) .block .text-4 .second {
+              font-size: 30px;
+              font-family: "Proxima Nova Condensed";
+              color: #6dc82a;
+              font-weight: normal; }
+          .section-8 .block .marg-1 .flex-item:nth-child(2) .block .text-5 {
+            margin-top: 10px;
+            font-size: 25px;
+            font-family: "Proxima Nova Condensed";
+            color: #d30000;
+            font-weight: normal; }
+      .section-8 .block .marg-1 .flex-item:nth-child(3) {
+        cursor: pointer;
+        -webkit-transition: all 0.7s ease;
+        -moz-transition: all 0.7s ease;
+        -ms-transition: all 0.7s ease;
+        -o-transition: all 0.7s ease;
+        transition: all 0.7s ease;
+        order: 0;
+        flex: 0 1 auto;
+        align-self: auto;
+        max-width: 300px; }
+        .section-8 .block .marg-1 .flex-item:nth-child(3):hover {
+          transform: scale(1.1); }
+        .section-8 .block .marg-1 .flex-item:nth-child(3) .block {
+          height: 280px;
+          padding: 20px;
+          border-radius: 10px;
+          background-color: white;
+          box-shadow: 0px 15px 7px 0px rgba(0, 0, 0, 0.35); }
+          .section-8 .block .marg-1 .flex-item:nth-child(3) .block .text-1 {
+            font-size: 30px;
+            font-family: "Proxima Nova Condensed";
+            color: #d30000;
+            font-weight: normal; }
+          .section-8 .block .marg-1 .flex-item:nth-child(3) .block .text-2 {
+            text-align: left;
+            font-size: 22px;
+            font-family: "Proxima Nova Condensed";
+            color: #000000;
+            font-weight: normal; }
+          .section-8 .block .marg-1 .flex-item:nth-child(3) .block .text-3 {
+            margin-top: 20px;
+            font-size: 50px;
+            font-family: "Proxima Nova Condensed";
+            color: #d30000;
+            font-weight: normal; }
+          .section-8 .block .marg-1 .flex-item:nth-child(3) .block .text-4 {
+            margin-top: 10px; }
+            .section-8 .block .marg-1 .flex-item:nth-child(3) .block .text-4 .first {
+              font-size: 30px;
+              font-family: "Proxima Nova Condensed";
+              color: #000000;
+              font-weight: normal;
+              text-decoration: line-through; }
+            .section-8 .block .marg-1 .flex-item:nth-child(3) .block .text-4 .second {
+              font-size: 30px;
+              font-family: "Proxima Nova Condensed";
+              color: #6dc82a;
+              font-weight: normal; }
+          .section-8 .block .marg-1 .flex-item:nth-child(3) .block .text-5 {
+            margin-top: 10px;
+            font-size: 25px;
+            font-family: "Proxima Nova Condensed";
+            color: #d30000;
+            font-weight: normal; }
+    .section-8 .block .marg-2 {
+      margin-top: 40px; }
+      .section-8 .block .marg-2 h2 {
+        font-size: 30px;
+        font-family: "Proxima Nova Condensed";
+        color: #000000;
+        font-weight: normal;
+        display: inline-block;
+        vertical-align: middle; }
+      .section-8 .block .marg-2 img {
+        margin-left: 10px;
+        display: inline-block;
+        vertical-align: middle;
+        color: #000000; }
+
+.section-9 {
+  background: url("../img/fon-8.png");
+  background-size: cover; }
+  .section-9 .block {
+    max-width: 1500px;
+    margin: auto;
+    padding: 30px;
+    text-align: center; }
+    .section-9 .block h2 {
+      font-size: 35px;
+      font-family: "Proxima Nova Condensed";
+      color: #FFFFFF;
+      font-weight: normal; }
+    .section-9 .block .line {
+      width: 300px;
+      padding: 1px;
+      background: #FFFFFF;
+      display: inline-block; }
+    .section-9 .block .text {
+      max-width: 400px;
+      margin: auto;
+      margin-top: 20px;
+      font-size: 25px;
+      font-family: "Proxima Nova Condensed";
+      color: #FFFFFF;
+      font-weight: normal; }
+      .section-9 .block .text .first {
+        color: #df1919;
+        font-weight: bold; }
+      .section-9 .block .text .second {
+        color: #5f8ec6;
+        font-weight: bold; }
+    .section-9 .block .marg-1 {
+      margin-top: 30px; }
+      .section-9 .block .marg-1 .flex-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-content: stretch;
+        align-items: flex-start; }
+      .section-9 .block .marg-1 .flex-item:nth-child(1) {
+        margin-right: 50px;
+        cursor: pointer;
+        -webkit-transition: all 0.7s ease;
+        -moz-transition: all 0.7s ease;
+        -ms-transition: all 0.7s ease;
+        -o-transition: all 0.7s ease;
+        transition: all 0.7s ease;
+        order: 0;
+        flex: 0 1 auto;
+        align-self: auto;
+        max-width: 300px; }
+        .section-9 .block .marg-1 .flex-item:nth-child(1):hover {
+          transform: scale(1.1); }
+        .section-9 .block .marg-1 .flex-item:nth-child(1) .block {
+          height: 280px;
+          padding: 20px;
+          border-radius: 10px;
+          background-color: white;
+          box-shadow: 0px 15px 7px 0px rgba(0, 0, 0, 0.35); }
+          .section-9 .block .marg-1 .flex-item:nth-child(1) .block .text-1 {
+            font-size: 30px;
+            font-family: "Proxima Nova Condensed";
+            color: #d30000;
+            font-weight: normal; }
+          .section-9 .block .marg-1 .flex-item:nth-child(1) .block .text-2 {
+            margin-top: 5px;
+            text-align: left;
+            font-size: 22px;
+            font-family: "Proxima Nova Condensed";
+            color: #000000;
+            font-weight: normal; }
+          .section-9 .block .marg-1 .flex-item:nth-child(1) .block .text-3 {
+            margin-top: 5px; }
+            .section-9 .block .marg-1 .flex-item:nth-child(1) .block .text-3 img {
+              width: 100px; }
+          .section-9 .block .marg-1 .flex-item:nth-child(1) .block .text-4 {
+            margin-top: 5px;
+            font-size: 30px;
+            font-family: "Proxima Nova Condensed";
+            color: #6dc82a;
+            font-weight: normal; }
+          .section-9 .block .marg-1 .flex-item:nth-child(1) .block .text-5 {
+            margin-top: 5px;
+            font-size: 25px;
+            font-family: "Proxima Nova Condensed";
+            color: #d30000;
+            font-weight: normal; }
+      .section-9 .block .marg-1 .flex-item:nth-child(2) {
+        margin-left: 50px;
+        cursor: pointer;
+        -webkit-transition: all 0.7s ease;
+        -moz-transition: all 0.7s ease;
+        -ms-transition: all 0.7s ease;
+        -o-transition: all 0.7s ease;
+        transition: all 0.7s ease;
+        order: 0;
+        flex: 0 1 auto;
+        align-self: auto;
+        max-width: 300px; }
+        .section-9 .block .marg-1 .flex-item:nth-child(2):hover {
+          transform: scale(1.1); }
+        .section-9 .block .marg-1 .flex-item:nth-child(2) .block {
+          height: 280px;
+          padding: 20px;
+          border-radius: 10px;
+          background-color: white;
+          box-shadow: 0px 15px 7px 0px rgba(0, 0, 0, 0.35); }
+          .section-9 .block .marg-1 .flex-item:nth-child(2) .block .text-1 {
+            font-size: 30px;
+            font-family: "Proxima Nova Condensed";
+            color: #d30000;
+            font-weight: normal; }
+          .section-9 .block .marg-1 .flex-item:nth-child(2) .block .text-2 {
+            margin-top: 5px;
+            text-align: left;
+            font-size: 22px;
+            font-family: "Proxima Nova Condensed";
+            color: #000000;
+            font-weight: normal; }
+          .section-9 .block .marg-1 .flex-item:nth-child(2) .block .text-3 {
+            margin-top: 5px; }
+            .section-9 .block .marg-1 .flex-item:nth-child(2) .block .text-3 img {
+              width: 100px; }
+          .section-9 .block .marg-1 .flex-item:nth-child(2) .block .text-4 {
+            margin-top: 5px;
+            font-size: 30px;
+            font-family: "Proxima Nova Condensed";
+            color: #6dc82a;
+            font-weight: normal; }
+          .section-9 .block .marg-1 .flex-item:nth-child(2) .block .text-5 {
+            margin-top: 5px;
+            font-size: 25px;
+            font-family: "Proxima Nova Condensed";
+            color: #d30000;
+            font-weight: normal; }
+    .section-9 .block .marg-2 {
+      margin-top: 50px; }
+      .section-9 .block .marg-2 .flex-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-content: stretch;
+        align-items: flex-start; }
+      .section-9 .block .marg-2 .flex-item:nth-child(1) {
+        cursor: pointer;
+        -webkit-transition: all 0.7s ease;
+        -moz-transition: all 0.7s ease;
+        -ms-transition: all 0.7s ease;
+        -o-transition: all 0.7s ease;
+        transition: all 0.7s ease;
+        order: 0;
+        flex: 0 1 auto;
+        align-self: auto;
+        max-width: 300px; }
+        .section-9 .block .marg-2 .flex-item:nth-child(1):hover {
+          transform: scale(1.1); }
+        .section-9 .block .marg-2 .flex-item:nth-child(1) .block {
+          height: 315px;
+          padding: 20px;
+          border-radius: 10px;
+          background-color: white;
+          box-shadow: 0px 15px 7px 0px rgba(0, 0, 0, 0.35); }
+          .section-9 .block .marg-2 .flex-item:nth-child(1) .block .text-1 {
+            font-size: 30px;
+            font-family: "Proxima Nova Condensed";
+            color: #d30000;
+            font-weight: normal; }
+          .section-9 .block .marg-2 .flex-item:nth-child(1) .block .text-2 {
+            margin-top: 5px;
+            text-align: left;
+            font-size: 22px;
+            font-family: "Proxima Nova Condensed";
+            color: #000000;
+            font-weight: normal; }
+          .section-9 .block .marg-2 .flex-item:nth-child(1) .block .text-3 {
+            margin-top: 15px; }
+            .section-9 .block .marg-2 .flex-item:nth-child(1) .block .text-3 img {
+              width: 100px; }
+          .section-9 .block .marg-2 .flex-item:nth-child(1) .block .text-4 {
+            margin-top: 5px;
+            font-size: 30px;
+            font-family: "Proxima Nova Condensed";
+            color: #6dc82a;
+            font-weight: normal; }
+          .section-9 .block .marg-2 .flex-item:nth-child(1) .block .text-5 {
+            margin-top: 5px;
+            font-size: 25px;
+            font-family: "Proxima Nova Condensed";
+            color: #d30000;
+            font-weight: normal; }
+      .section-9 .block .marg-2 .flex-item:nth-child(2) {
+        cursor: pointer;
+        -webkit-transition: all 0.7s ease;
+        -moz-transition: all 0.7s ease;
+        -ms-transition: all 0.7s ease;
+        -o-transition: all 0.7s ease;
+        transition: all 0.7s ease;
+        order: 0;
+        flex: 0 1 auto;
+        align-self: auto;
+        max-width: 300px; }
+        .section-9 .block .marg-2 .flex-item:nth-child(2):hover {
+          transform: scale(1.1); }
+        .section-9 .block .marg-2 .flex-item:nth-child(2) .block {
+          height: 315px;
+          padding: 20px;
+          border-radius: 10px;
+          background-color: white;
+          box-shadow: 0px 15px 7px 0px rgba(0, 0, 0, 0.35); }
+          .section-9 .block .marg-2 .flex-item:nth-child(2) .block .text-1 {
+            font-size: 30px;
+            font-family: "Proxima Nova Condensed";
+            color: #d30000;
+            font-weight: normal; }
+          .section-9 .block .marg-2 .flex-item:nth-child(2) .block .text-2 {
+            margin-top: 5px;
+            text-align: left;
+            font-size: 22px;
+            font-family: "Proxima Nova Condensed";
+            color: #000000;
+            font-weight: normal; }
+          .section-9 .block .marg-2 .flex-item:nth-child(2) .block .text-3 {
+            margin-top: 15px; }
+            .section-9 .block .marg-2 .flex-item:nth-child(2) .block .text-3 img {
+              width: 100px; }
+          .section-9 .block .marg-2 .flex-item:nth-child(2) .block .text-4 {
+            margin-top: 5px;
+            font-size: 30px;
+            font-family: "Proxima Nova Condensed";
+            color: #6dc82a;
+            font-weight: normal; }
+          .section-9 .block .marg-2 .flex-item:nth-child(2) .block .text-5 {
+            margin-top: 5px;
+            font-size: 25px;
+            font-family: "Proxima Nova Condensed";
+            color: #d30000;
+            font-weight: normal; }
+      .section-9 .block .marg-2 .flex-item:nth-child(3) {
+        cursor: pointer;
+        -webkit-transition: all 0.7s ease;
+        -moz-transition: all 0.7s ease;
+        -ms-transition: all 0.7s ease;
+        -o-transition: all 0.7s ease;
+        transition: all 0.7s ease;
+        order: 0;
+        flex: 0 1 auto;
+        align-self: auto;
+        max-width: 300px; }
+        .section-9 .block .marg-2 .flex-item:nth-child(3):hover {
+          transform: scale(1.1); }
+        .section-9 .block .marg-2 .flex-item:nth-child(3) .block {
+          height: 315px;
+          padding: 20px;
+          border-radius: 10px;
+          background-color: white;
+          box-shadow: 0px 15px 7px 0px rgba(0, 0, 0, 0.35); }
+          .section-9 .block .marg-2 .flex-item:nth-child(3) .block .text-1 {
+            font-size: 30px;
+            font-family: "Proxima Nova Condensed";
+            color: #d30000;
+            font-weight: normal; }
+          .section-9 .block .marg-2 .flex-item:nth-child(3) .block .text-2 {
+            margin-top: 5px;
+            text-align: left;
+            font-size: 22px;
+            font-family: "Proxima Nova Condensed";
+            color: #000000;
+            font-weight: normal; }
+          .section-9 .block .marg-2 .flex-item:nth-child(3) .block .text-3 {
+            margin-top: 15px; }
+            .section-9 .block .marg-2 .flex-item:nth-child(3) .block .text-3 img {
+              width: 100px; }
+          .section-9 .block .marg-2 .flex-item:nth-child(3) .block .text-4 {
+            margin-top: 5px;
+            font-size: 30px;
+            font-family: "Proxima Nova Condensed";
+            color: #6dc82a;
+            font-weight: normal; }
+          .section-9 .block .marg-2 .flex-item:nth-child(3) .block .text-5 {
+            margin-top: 5px;
+            font-size: 25px;
+            font-family: "Proxima Nova Condensed";
+            color: #d30000;
+            font-weight: normal; }
+
 @media (max-width: 1250px) {
   .section-1 .substrate .menu {
     position: fixed;
@@ -775,7 +1383,25 @@
   .section-4 .ind .block button {
     cursor: default; }
   .section-5 .block .inl .block-1 .inl-1 img {
-    width: 400px; } }
+    width: 400px; }
+  .section-7 .block .marg-1 button {
+    cursor: default; }
+  .section-8 .block .marg-1 .flex-item:nth-child(1) {
+    cursor: default; }
+  .section-8 .block .marg-1 .flex-item:nth-child(2) {
+    cursor: default; }
+  .section-8 .block .marg-1 .flex-item:nth-child(3) {
+    cursor: default; }
+  .section-9 .block .marg-1 .flex-item:nth-child(1) {
+    cursor: default; }
+  .section-9 .block .marg-1 .flex-item:nth-child(2) {
+    cursor: default; }
+  .section-9 .block .marg-2 .flex-item:nth-child(1) {
+    cursor: default; }
+  .section-9 .block .marg-2 .flex-item:nth-child(2) {
+    cursor: default; }
+  .section-9 .block .marg-2 .flex-item:nth-child(3) {
+    cursor: default; } }
 
 @media (max-width: 980px) {
   .section-3 .flex-container {
@@ -831,7 +1457,41 @@
     .section-5 .block .inl .block-1 .inl-2 img {
       display: inline-block;
       margin-left: 0px;
-      margin-top: 10px; } }
+      margin-top: 10px; }
+  .section-7 .block .marg {
+    margin-top: 15px; }
+    .section-7 .block .marg .flex-container {
+      flex-direction: column; }
+    .section-7 .block .marg .flex-item:nth-child(2) {
+      margin-top: 15px; }
+      .section-7 .block .marg .flex-item:nth-child(2) img {
+        width: 100%; }
+  .section-8 .block .marg-1 {
+    margin-top: 15px; }
+    .section-8 .block .marg-1 .flex-container {
+      flex-direction: column;
+      align-items: center; }
+    .section-8 .block .marg-1 .flex-item:nth-child(2) {
+      margin-top: 160px; }
+    .section-8 .block .marg-1 .flex-item:nth-child(3) {
+      margin-top: 40px; }
+  .section-9 .block .marg-1 .flex-container {
+    flex-direction: column;
+    align-items: center; }
+  .section-9 .block .marg-1 .flex-item:nth-child(1) {
+    margin-right: 0px; }
+  .section-9 .block .marg-1 .flex-item:nth-child(2) {
+    margin-left: 0px;
+    margin-top: 50px; }
+  .section-9 .block .marg-2 {
+    margin-top: 50px; }
+    .section-9 .block .marg-2 .flex-container {
+      flex-direction: column;
+      align-items: center; }
+    .section-9 .block .marg-2 .flex-item:nth-child(2) {
+      margin-top: 50px; }
+    .section-9 .block .marg-2 .flex-item:nth-child(3) {
+      margin-top: 50px; } }
 
 @media (max-width: 767px) {
   .section-1 .substrate {
@@ -992,7 +1652,7 @@
         .section-5 .block .inl .block-1 .inl-2 p {
           font-size: 22px; }
   .section-6 .rect {
-    width: 80px; }
+    width: 70px; }
   .section-6 .block .inl {
     padding: 10px; }
     .section-6 .block .inl h2 {
@@ -1032,7 +1692,7 @@
         margin-top: 40px;
         text-align: center;
         font-size: 22px;
-        margin-right: -90px; }
+        margin-right: -70px; }
     .section-6 .block .block-marg .block-3 .text {
       margin-top: 20px;
       margin-left: 10px; }
@@ -1043,7 +1703,7 @@
         font-size: 22px;
         font-weight: bold; }
       .section-6 .block .block-marg .block-3 .text .text-2 {
-        margin-left: -90px;
+        margin-left: -75px;
         margin-top: 40px;
         font-size: 22px;
         text-align: center; }
@@ -1061,4 +1721,168 @@
         margin-top: 40px;
         text-align: center;
         font-size: 22px;
-        margin-right: -90px; } }
+        margin-right: -70px; }
+  .section-7 .block h2 {
+    font-size: 28px; }
+  .section-7 .block .line {
+    width: 300px; }
+  .section-7 .block .marg .flex-item:nth-child(1) .text-1, .section-7 .block .marg .flex-item:nth-child(1) .text-2 {
+    font-size: 25px;
+    font-family: "Proxima Nova Condensed";
+    color: #2b52ea;
+    font-weight: normal; }
+  .section-7 .block .marg .flex-item:nth-child(1) .list-1 li {
+    font-size: 22px;
+    padding-left: 2.2em; }
+  .section-7 .block .marg .flex-item:nth-child(1) .list-2 li {
+    font-size: 22px;
+    padding-left: 2.2em; }
+  .section-7 .block .marg .flex-item:nth-child(2) img {
+    width: 100%; }
+  .section-7 .block .marg-1 {
+    margin-top: 10px; }
+    .section-7 .block .marg-1 .text {
+      font-size: 25px; }
+    .section-7 .block .marg-1 button {
+      margin-top: 10px;
+      cursor: pointer;
+      outline: none;
+      border-radius: 10px;
+      border: 0px;
+      background-color: #022f72;
+      box-shadow: 0px 10px 7px 0px rgba(0, 0, 0, 0.35);
+      padding: 8px 70px;
+      font-size: 22px;
+      font-family: "Proxima Nova Condensed";
+      color: white; }
+  .section-8 .block {
+    padding: 15px; }
+    .section-8 .block h2 {
+      font-size: 25px; }
+    .section-8 .block .line {
+      width: 200px;
+      padding: 1px;
+      background: #FFFFFF;
+      display: inline-block; }
+    .section-8 .block .marg .cash {
+      width: 30px; }
+    .section-8 .block .marg .h2 {
+      margin-left: 5px; }
+    .section-8 .block .disc {
+      width: 70px; }
+    .section-8 .block .marg-1 {
+      margin-top: 15px; }
+      .section-8 .block .marg-1 .flex-item:nth-child(1) .block .text-1 {
+        font-size: 28px; }
+      .section-8 .block .marg-1 .flex-item:nth-child(1) .block .text-2 {
+        font-size: 22px; }
+      .section-8 .block .marg-1 .flex-item:nth-child(1) .block .text-3 {
+        font-size: 40px; }
+      .section-8 .block .marg-1 .flex-item:nth-child(1) .block .text-4 .first {
+        font-size: 28px; }
+      .section-8 .block .marg-1 .flex-item:nth-child(1) .block .text-4 .second {
+        font-size: 28px; }
+      .section-8 .block .marg-1 .flex-item:nth-child(1) .block .text-5 {
+        font-size: 25px; }
+      .section-8 .block .marg-1 .flex-item:nth-child(2) .block .text-1 {
+        font-size: 28px; }
+      .section-8 .block .marg-1 .flex-item:nth-child(2) .block .text-2 {
+        font-size: 22px; }
+      .section-8 .block .marg-1 .flex-item:nth-child(2) .block .text-3 {
+        font-size: 40px; }
+      .section-8 .block .marg-1 .flex-item:nth-child(2) .block .text-4 .first {
+        font-size: 28px; }
+      .section-8 .block .marg-1 .flex-item:nth-child(2) .block .text-4 .second {
+        font-size: 28px; }
+      .section-8 .block .marg-1 .flex-item:nth-child(2) .block .text-5 {
+        font-size: 25px; }
+      .section-8 .block .marg-1 .flex-item:nth-child(3) .block .text-1 {
+        font-size: 28px; }
+      .section-8 .block .marg-1 .flex-item:nth-child(3) .block .text-2 {
+        font-size: 22px; }
+      .section-8 .block .marg-1 .flex-item:nth-child(3) .block .text-3 {
+        font-size: 40px; }
+      .section-8 .block .marg-1 .flex-item:nth-child(3) .block .text-4 .first {
+        font-size: 28px; }
+      .section-8 .block .marg-1 .flex-item:nth-child(3) .block .text-4 .second {
+        font-size: 28px; }
+      .section-8 .block .marg-1 .flex-item:nth-child(3) .block .text-5 {
+        font-size: 25px; }
+    .section-8 .block .marg-2 {
+      margin-top: 30px; }
+      .section-8 .block .marg-2 h2 {
+        font-size: 22px; }
+      .section-8 .block .marg-2 img {
+        width: 30px;
+        margin-left: 0px; }
+  .section-9 .block {
+    padding: 25px; }
+    .section-9 .block h2 {
+      font-size: 28px; }
+    .section-9 .block .line {
+      width: 200px;
+      padding: 1px;
+      background: #FFFFFF;
+      display: inline-block; }
+    .section-9 .block .text {
+      margin-top: 10px;
+      font-size: 22px; }
+    .section-9 .block .marg-1 {
+      margin-top: 15px; }
+      .section-9 .block .marg-1 .flex-container {
+        flex-direction: column;
+        align-items: center; }
+      .section-9 .block .marg-1 .flex-item:nth-child(1) {
+        margin-right: 0px; }
+        .section-9 .block .marg-1 .flex-item:nth-child(1) .block .text-1 {
+          font-size: 28px; }
+        .section-9 .block .marg-1 .flex-item:nth-child(1) .block .text-2 {
+          font-size: 22px; }
+        .section-9 .block .marg-1 .flex-item:nth-child(1) .block .text-4 {
+          font-size: 28px; }
+        .section-9 .block .marg-1 .flex-item:nth-child(1) .block .text-5 {
+          font-size: 25px; }
+      .section-9 .block .marg-1 .flex-item:nth-child(2) {
+        margin-left: 0px;
+        margin-top: 50px; }
+        .section-9 .block .marg-1 .flex-item:nth-child(2) .block .text-1 {
+          font-size: 28px; }
+        .section-9 .block .marg-1 .flex-item:nth-child(2) .block .text-2 {
+          font-size: 22px; }
+        .section-9 .block .marg-1 .flex-item:nth-child(2) .block .text-4 {
+          font-size: 28px; }
+        .section-9 .block .marg-1 .flex-item:nth-child(2) .block .text-5 {
+          font-size: 25px; }
+    .section-9 .block .marg-2 {
+      margin-top: 50px; }
+      .section-9 .block .marg-2 .flex-container {
+        flex-direction: column;
+        align-items: center; }
+      .section-9 .block .marg-2 .flex-item:nth-child(1) .block .text-1 {
+        font-size: 28px; }
+      .section-9 .block .marg-2 .flex-item:nth-child(1) .block .text-2 {
+        font-size: 22px; }
+      .section-9 .block .marg-2 .flex-item:nth-child(1) .block .text-4 {
+        font-size: 28px; }
+      .section-9 .block .marg-2 .flex-item:nth-child(1) .block .text-5 {
+        font-size: 25px; }
+      .section-9 .block .marg-2 .flex-item:nth-child(2) {
+        margin-top: 50px; }
+        .section-9 .block .marg-2 .flex-item:nth-child(2) .block .text-1 {
+          font-size: 28px; }
+        .section-9 .block .marg-2 .flex-item:nth-child(2) .block .text-2 {
+          font-size: 22px; }
+        .section-9 .block .marg-2 .flex-item:nth-child(2) .block .text-4 {
+          font-size: 28px; }
+        .section-9 .block .marg-2 .flex-item:nth-child(2) .block .text-5 {
+          font-size: 25px; }
+      .section-9 .block .marg-2 .flex-item:nth-child(3) {
+        margin-top: 50px; }
+        .section-9 .block .marg-2 .flex-item:nth-child(3) .block .text-1 {
+          font-size: 28px; }
+        .section-9 .block .marg-2 .flex-item:nth-child(3) .block .text-2 {
+          font-size: 22px; }
+        .section-9 .block .marg-2 .flex-item:nth-child(3) .block .text-4 {
+          font-size: 28px; }
+        .section-9 .block .marg-2 .flex-item:nth-child(3) .block .text-5 {
+          font-size: 25px; } }
