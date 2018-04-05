@@ -1,5 +1,4 @@
 $(document).ready(function(){
-	//Note osob
 	$(".menu-1").click(function(){
 		//animation hamburger (open)
 		$(".menu-1").toggleClass("trans");
