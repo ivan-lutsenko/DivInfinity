@@ -14,6 +14,9 @@
 </head>
 <body>
 	<!-- <div class="form"></div> -->
+	<div class="button-up">
+		<img class="up" src="img/arrow-bottom-1.png" alt="Arrow-bottom-2">
+	</div>
 	<div class="section-1">
 		<div class="substrate">
 			<a class="a-1" href="#">
@@ -22,11 +25,11 @@
 			<div class="menu fadeInDown animated">
 				<nav>
 					<ul>
-						<li><a href="#">Компания</a></li>
-						<li><a href="#">Преимущества</a></li>
-						<li><a href="#">Процесс</a></li>
-						<li><a href="#">Услуги</a></li>
-						<li><a href="#">Контакты</a></li>
+						<li><a href="#сompany" data-target="anchor">Компания</a></li>
+						<li><a href="#benefits" data-target="anchor">Преимущества</a></li>
+						<li><a href="#process" data-target="anchor">Процесс</a></li>
+						<li><a href="#services" data-target="anchor">Услуги</a></li>
+						<li><a href="#contacts" data-target="anchor">Контакты</a></li>
 					</ul>
 					<img class="cross-1" src="img/cross.png" alt="Cross-1">
 				</nav>
@@ -77,10 +80,12 @@
 				</div>
 			</div>
 			<div class="substrate-2">
-				<img src="img/arrow-bottom-1.png" alt="Arrow-bottom-1">
+				<a href="#benefits" data-target="anchor">
+					<img src="img/arrow-bottom-1.png" alt="Arrow-bottom-1">
+				</a>
 			</div>
 	</div>
-	<div class="section-2">
+	<div class="section-2" id="сompany">
 		<div class="marg">
 			<h2>Подробнее о нас</h2>
 			<img src="img/line-1.png" alt="Line-1">
@@ -112,7 +117,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="section-3">
+	<div class="section-3" id="benefits">
 		<h2>Почему выбирают именно нас</h2>
 		<img src="img/line-2.png" alt="Line-2">
 		<div class="block">
@@ -211,7 +216,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="section-6">
+	<div class="section-6"  id="process">
 		<div class="block">
 			<div class="inl">
 				<h2>Схема сотрудничества</h2>
@@ -387,7 +392,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="section-9">
+	<div class="section-9" id="services">
 		<div class="block">
 			<h2>Стоимость наших услуг</h2>
 			<span class="line"></span>
@@ -523,7 +528,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="section-11">
+	<div class="section-11" id="contacts">
 		<h2>Контакты</h2>
 		<span class="line"></span>
 		<div class="text-1 bounceInLeft wow">
@@ -553,8 +558,8 @@
 		</div>
 		<div class="form-1 fadeInLeft wow">
 			<input type="text" placeholder="Ваше Имя:">
-			<input type="text" placeholder="Электронная почта:">
-			<input type="text" placeholder="Номер телефона:">
+			<input id="mail" type="text" placeholder="Электронная почта:">
+			<input id="phone" type="text" placeholder="Номер телефона:">
 			<button>Отправить</button>
 		</div>
 	</div>
@@ -568,5 +573,9 @@
 	<script src="js/jquery.min.js"></script>
 	<script src="js/script-menu.js"></script>
 	<script src="js/script-fixed.js"></script>
+	<script src="js/custom.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
+	<script src="js/jquery.inputmask.bundle.min.js"></script>
+	<script src="js/script-mask.js"></script>
 </body>
 </html>

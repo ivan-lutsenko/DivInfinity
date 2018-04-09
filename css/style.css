@@ -23,6 +23,26 @@ body {
   right: 0px;
   z-index: 99; }
 
+.button-up {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  height: 0px;
+  z-index: 98;
+  text-align: center;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease; }
+  .button-up.position {
+    height: 80px; }
+  .button-up img {
+    margin-top: 10px;
+    width: 60px;
+    transform: rotate(180deg); }
+
 .section-1 {
   position: relative;
   background: url("../img/fon-1.png");
