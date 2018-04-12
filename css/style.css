@@ -10,6 +10,10 @@ body {
   position: fixed;
   width: 100%; }
 
+.overflow-1 {
+  overflow-y: hidden;
+  width: 100%; }
+
 @font-face {
   font-family: Proxima Nova Condensed;
   src: url("../fonts/ProximaNovaCond-Regular.ttf"); }
@@ -19,9 +23,118 @@ body {
   background: rgba(0, 0, 0, 0.5);
   top: 0px;
   bottom: 0px;
-  left: 0px;
-  right: 0px;
-  z-index: 99; }
+  left: -100%;
+  right: 100%;
+  z-index: 99;
+  opacity: 0;
+  -webkit-transition: opacity 1s ease;
+  -moz-transition: opacity 1s ease;
+  -ms-transition: opacity 1s ease;
+  -o-transition: opacity 1s ease;
+  transition: opacity 1s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+  .form.open {
+    left: 0px;
+    right: 0px;
+    opacity: 1; }
+  .form .form-2 {
+    position: relative;
+    padding: 15px;
+    background: #FFFFFF;
+    max-width: 400px;
+    width: 80%;
+    margin: auto;
+    border-radius: 5px;
+    border: 3px solid #2196F3; }
+    .form .form-2 .close {
+      position: absolute;
+      z-index: 1;
+      right: 3px;
+      top: -6px;
+      color: #2196F3;
+      font-size: 35px;
+      font-weight: bold;
+      cursor: pointer;
+      outline: none; }
+      .form .form-2 .close:hover {
+        color: #ff5722; }
+    .form .form-2 .marg {
+      margin-top: 5px; }
+      .form .form-2 .marg .text-1 {
+        display: block;
+        font-size: 20px;
+        font-family: "Proxima Nova Condensed";
+        color: #000000;
+        font-weight: normal;
+        text-align: center; }
+        .form .form-2 .marg .text-1 span {
+          color: #ff5722;
+          font-weight: bold; }
+    .form .form-2 input {
+      font-size: 20px;
+      font-family: "Proxima Nova Condensed";
+      color: #000000;
+      font-weight: normal;
+      margin-top: 8px;
+      padding: 8px 20px;
+      max-width: 280px;
+      width: 80%;
+      border-radius: 3px;
+      border: 1px solid #c0c0c0;
+      outline: none;
+      -webkit-transition: all 0.7s ease;
+      -moz-transition: all 0.7s ease;
+      -ms-transition: all 0.7s ease;
+      -o-transition: all 0.7s ease;
+      transition: all 0.7s ease; }
+    .form .form-2 input:focus {
+      border: 1px solid #2196F3; }
+    .form .form-2 button {
+      margin-top: 8px;
+      cursor: pointer;
+      outline: none;
+      border-radius: 10px;
+      border: 0px;
+      background-color: #ff5722;
+      box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.35);
+      padding: 8px 50px;
+      font-size: 20px;
+      font-family: "Proxima Nova Condensed";
+      color: white;
+      max-width: 325px;
+      width: 95%;
+      -webkit-transition: all 0.6s ease;
+      -moz-transition: all 0.6s ease;
+      -ms-transition: all 0.6s ease;
+      -o-transition: all 0.6s ease;
+      transition: all 0.6s ease; }
+      .form .form-2 button:hover {
+        background-color: #2196F3; }
+    .form .form-2 .information {
+      position: relative;
+      display: none;
+      max-width: 295px;
+      width: 86%;
+      margin: auto;
+      margin-top: 8px;
+      border-radius: 5px;
+      padding: 8px 15px;
+      box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.35);
+      text-align: left;
+      font-size: 18px;
+      font-family: "Proxima Nova Condensed";
+      color: #FFFFFF;
+      font-weight: normal;
+      text-align: center; }
+      .form .form-2 .information.red {
+        background: #AE1212; }
+      .form .form-2 .information.green {
+        background: #33be40; }
+      .form .form-2 .information.block {
+        display: block; }
 
 .button-up {
   position: fixed;
@@ -31,11 +144,11 @@ body {
   height: 0px;
   z-index: 98;
   text-align: center;
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  transition: all 1s ease; }
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -ms-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+  transition: all 0.6s ease; }
   .button-up.position {
     height: 80px; }
   .button-up img {
@@ -1480,7 +1593,7 @@ body {
       padding: 8px 20px;
       width: 285px;
       border-radius: 5px;
-      border: 1px solid #524C4C;
+      border: 1px solid #c0c0c0;
       outline: none;
       -webkit-transition: all 0.7s ease;
       -moz-transition: all 0.7s ease;
@@ -1488,7 +1601,7 @@ body {
       -o-transition: all 0.7s ease;
       transition: all 0.7s ease; }
     .section-11 .form-1 input:focus {
-      border: 1px solid #463FD7; }
+      border: 1px solid #2196F3; }
     .section-11 .form-1 button {
       margin-top: 5px;
       cursor: pointer;
@@ -1509,6 +1622,38 @@ body {
       transition: all 0.6s ease; }
       .section-11 .form-1 button:hover {
         background-color: #c76f0a; }
+    .section-11 .form-1 .information {
+      position: relative;
+      display: none;
+      max-width: 272px;
+      margin: auto;
+      margin-top: 15px;
+      border-radius: 5px;
+      padding: 15px 30px;
+      box-shadow: 0px 10px 7px 0px rgba(0, 0, 0, 0.35);
+      text-align: left;
+      font-size: 18px;
+      font-family: "Proxima Nova Condensed";
+      color: #FFFFFF;
+      font-weight: normal; }
+      .section-11 .form-1 .information.red {
+        background: #AE1212; }
+      .section-11 .form-1 .information.green {
+        background: #33be40; }
+      .section-11 .form-1 .information.block {
+        display: block; }
+      .section-11 .form-1 .information .close {
+        position: absolute;
+        z-index: 1;
+        right: 15px;
+        top: 0px;
+        color: #FFFFFF;
+        font-size: 25px;
+        font-weight: bold;
+        cursor: pointer;
+        outline: none; }
+        .section-11 .form-1 .information .close:hover {
+          color: #000000; }
 
 .section-12 {
   background: url("../img/fon-10.png") 100% 50%;
@@ -1532,6 +1677,10 @@ body {
       width: 100%; }
 
 @media (max-width: 1250px) {
+  .form .form-2 .close {
+    cursor: default; }
+  .form .form-2 button {
+    cursor: default; }
   .section-1 .substrate .menu {
     position: fixed;
     top: 0px;
@@ -1616,6 +1765,8 @@ body {
   .section-10 .block .flex-item:nth-child(2) button {
     cursor: default; }
   .section-11 .form-1 button {
+    cursor: default; }
+  .section-11 .form-1 .information .close {
     cursor: default; } }
 
 @media (max-width: 980px) {

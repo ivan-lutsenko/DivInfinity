@@ -38,4 +38,7 @@ $(document).ready(function(){
 			$(".menu nav ul li:nth-child(5)").removeClass("slideInDown animated opacity");
 		}, 500);
 	});
+	$(".form-1 .information .close").click(function(){
+		$(".form-1 .information").removeClass("block");
+	});
 });
