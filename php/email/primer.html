@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>DivInfinity</title>
+</head>
+<style>
+	body{
+		margin: 0px;
+		padding: 0px;
+	}
+	.block{
+		max-width: 1000px;
+		margin: auto;
+	}
+
+	.block-1{
+		background: #3b3b3b;
+		padding: 10px;
+		text-align: center;
+	}
+	.block-1 img{
+		width: 200px;
+	}
+
+	.block-2{
+		background: #4745a3;
+		padding: 10px;
+		text-align: center;
+	}
+	.block-2 span{
+		text-decoration: none;
+		display: block;
+		margin-top: 10px;
+		font-size: 20px;
+		font-family: "Arial";
+		color: rgb(255, 255, 255);
+	}
+	.block-2 span:first-child{
+		margin-top: 0px;
+	}
+	.block-2 .red{
+		color: #000000;
+	}
+	.block-2 .line{
+		width: 300px;
+		padding: 1px;
+		background: #fff;
+		margin: auto;
+		margin-top: 10px;
+	}
+
+	.block-3{
+		background: #FFFFFF;
+		padding: 10px;
+		text-align: center;
+	}
+	.block-3 span{
+		text-decoration: none;
+		display: block;
+		margin-top: 5px;
+		font-size: 20px;
+		font-family: "Arial";
+		color: #000000;
+	}
+	.block-3 span:first-child{
+		margin-top: 0px;
+	}
+	.block-3 span .color{
+		display: inline;
+		color: #23c232;
+	}
+</style>
+<body>
+	<div class="block-1">
+		<div class="block">
+			<img src="https://ivan-lutsenko.github.io/DivInfinity/img/logo-1.png" alt="logo">
+		</div>
+	</div>
+	<div class="block-2">
+		<div class="block">
+			<span>Имя клиента: {%name%}</span>
+			<span>Электронная почта: {%mail%}</span>
+			<span>Номер телефона: {%tel%}</span>
+			<span class="red">Компания DivInfinity System</span>
+			<div class="line"></div>
+		</div>
+	</div>
+	<div class="block-3">
+		<div class="block">
+			<span>Номер телефона: <span class="color">+375 29 367 43 07</span></span>
+			<span>Электронная почта: <span class="color">divinfinity@gmail.com</span></span>
+		</div>
+	</div>
+</body>
+</html>
